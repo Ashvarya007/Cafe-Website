@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css" />
+
+    <title>Museum of Candy</title>
+  </head>
+
+  <body>
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+    >
+      <a href="" class="navbar-brand"
+        ><img src ="./imgs/icon.png" id="icon"></img></a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navLinks"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item text-center">
+            <a href="" class="nav-link">HOME</a>
+          </li>&nbsp;
+          <li class="nav-item">
+            <a href="" class="nav-link">ABOUT</a>
+          </li>&nbsp;
+          <li class="nav-item">
+            <a href="./orders.html" class="nav-link">ORDER</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="container-fluid px-0">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div
+            id="headingGroup"
+            class="text-white text-center d-none d-lg-block mt-5"
+          >
+            <h1 class="">SHAKES<span>/</span>&<span>/</span>CRUMBS</h1>
+            <h1 class="">SHAKES<span>/</span>&<span>/</span>CRUMBS</h1>
+            <h1 class="">SHAKES<span>/</span>&<span>/</span>CRUMBS</h1>
+            <h1 class="">SHAKES<span>/</span>&<span>/</span>CRUMBS</h1>
+            <h1 class="">SHAKES<span>/</span>&<span>/</span>CRUMBS</h1>
+            <h1 class="">SHAKES<span>/</span>&<span>/</span>CRUMBS</h1>
+            <h1 class="">SHAKES<span>/</span>&<span>/</span>CRUMBS</h1>
+            <h1 class="">SHAKES<span>/</span>&<span>/</span>CRUMBS</h1>
+
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="imgs/cafe-bg.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-0">
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+          <!-- milkshake carousel -->
+          <div
+            id="milkshakeCaptions"
+            class="carousel slide"
+            data-bs-ride="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#milkshakeCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#milkshakeCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#milkshakeCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./imgs/classic-3.jpg"
+                  id="classicMilkshakes"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Classics</h5>
+                  <p>Vannilla, Chocolate, Strawberry, Blueberry, Fruity</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./imgs/assorted-milkshakes.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Assorted</h5>
+                  <p>
+                    Cookies and cream, rocky road, mint chocolate,Oreo, salted
+                    caramel
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./imgs/custom-topping.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Custom</h5>
+                  <p>
+                    Combination of toppings like whipped cream with sprinkles,
+                    caramel, fresh fruit, cookies. Other toppings only upon
+                    special request
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#milkshakeCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#milkshakeCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- <img src="imgs/milk.png" alt="" class="img-fluid" /> -->
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>M I L K S H A K E S</h2>
+              <img
+                src="imgs/milkshake-animated.gif"
+                alt=""
+                class="d-none d-lg-inline"
+                id="milkshake"
+              />
+              <p class="lead text-justify">
+                A world-class selection of all your favourite flavours from
+                classic favorites like chocolate, vanilla, and strawberry to
+                unique creations like salted caramel, cookies and cream, and
+                mint chocolate chip, we have something to tantalize every taste
+                bud., we've got it all! Come and explore the wonderfulness of
+                thick and delicious shakes that you won't forget!
+                <br /><br />
+                Each sip of our milkshakes is like a heavenly symphony of
+                velvety smoothness and luscious flavors. We start with the
+                finest ingredients, using premium ice cream made from fresh,
+                locally sourced dairy. But it doesn't stop there! We take pride
+                in our commitment to excellence, which is why we offer
+                customization options that allow you to create your dream
+                milkshake.
+                <br /><br />
+                Add a swirl of decadent whipped cream, drizzle it with luxurious
+                chocolate or caramel sauce, and top it off with a generous
+                helping of sprinkles, crushed cookies, or fresh fruit. The
+                possibilities are endless, limited only by your
+                imagination.Feeling adventurous? Try our assortment of flavor
+                bursts, such as zesty citrus, rich espresso, or creamy peanut
+                butter, for a surprising twist of taste.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center content">
+        <div class="col-md-6 text-center">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>C O O K I E S</h2>
+              <img
+                src="imgs/candy-animated.gif"
+                alt=""
+                class="d-none d-lg-inline"
+                id="candy"
+              />
+              <p class="lead text-justify">
+                Welcome to a world of tantalizing flavors and heavenly aromas.
+                Brace yourself for a cookie experience like no other! Our
+                cookies are crafted with love and passion, using only the finest
+                ingredients to create delectable delights that will leave you
+                craving more. Each cookie is a masterpiece, meticulously baked
+                to perfection. <br /><br />
+                We start with a blend of premium ingredients: silky butter, rich
+                chocolate, plump raisins, and crunchy nuts. Our secret recipe
+                ensures a harmonious balance of textures and flavors that will
+                transport your taste buds to pure bliss. Our cookie menu is a
+                testament to our commitment to variety and innovation. From
+                classic favorites like chocolate chip, oatmeal raisin, and
+                peanut butter to exciting creations like salted caramel, double
+                chocolate fudge, and white chocolate macadamia nut, we offer an
+                array of choices to satisfy every cookie connoisseur.
+                <br /><br />But we don't stop at the classics! Our talented
+                bakers continuously experiment with new flavors and combinations
+                to surprise and delight your senses. Picture biting into a warm,
+                freshly baked cookie with a gooey center bursting with melted
+                caramel, or savoring the irresistible crunch of a cookie studded
+                with toffee and almond slivers. The possibilities are endless,
+                and our cookie collection is ever-evolving.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!-- cookies carousel -->
+          <div id="cookiesCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#cookiesCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#cookiesCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#cookiesCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#cookiesCaptions"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img
+                  src="./imgs/cookie-classic.jpg"
+                  id="classicMilkshakes"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Classics</h5>
+                  <p>Chocolate chip, oatmeal raisin, plain, nutty</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./imgs/custom-cookie.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Assorted</h5>
+                  <p>
+                    Mint chocolate, Oreo, caramel, mocha comes as a filling
+                    between two crunchy cookies
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./imgs/cookie-jars.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cookie Jars</h5>
+                  <p>
+                    Combination of cookies decadantly placed in a jar, perfect
+                    for gifting.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img
+                  src="./imgs/macarons.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Macarons</h5>
+                  <p>Fresh macarons with mouth watering flavours.</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#cookiesCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#cookiesCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- <img src="imgs/gumball.png" alt="" class="img-fluid" /> -->
+        </div>
+      </div>
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+         <!-- donut carousel -->
+            <div
+            id="donutCaptions"
+            class="carousel slide"
+            data-bs-ride="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#donutCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#donutCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#donutCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./imgs/donuts-sprinkes.jpg"
+                  id="classicMilkshakes"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Sprinkled</h5>
+                  <p>Sprinkled with rainbow coloured confetti</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./imgs/donuts-glazed.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Glazed</h5>
+                  <p>
+                    Choco, caramel, vannilla, and other glazed favourites
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./imgs/donuts-custom.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cronuts</h5>
+                  <p>
+                 Flavoured cronuts with amazing fillings.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#donutCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#donutCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>D O N U T S</h2>
+              <img
+                src="imgs/donut-animated.gif"
+                alt=""
+                class="d-none d-lg-inline"
+                id="donut"
+              />
+              <p class="lead text-justify">
+                Our donuts are masterfully crafted with passion and expertise.
+                Using the finest ingredients and time-honored recipes, our
+                bakers work their magic to create fluffy, melt-in-your-mouth
+                treats that will leave you craving more. Each donut is carefully
+                shaped, fried to golden perfection, and adorned with an array of
+                delectable toppings. <br /><br />Our menu is a treasure trove of
+                flavors and textures. From classic glazed and powdered sugar to
+                decadent chocolate ganache, fruity berry bursts, and creamy
+                vanilla custard-filled delights, we offer a diverse selection to
+                satisfy every donut enthusiast's cravings. But we don't stop at
+                traditional favorites! Our imaginative bakers constantly push
+                the boundaries of donut innovation. <br /><br />Picture biting
+                into a donut coated in a caramel drizzle and sprinkled with sea
+                salt, or discovering a donut filled with rich Nutella and topped
+                with crushed hazelnuts. Our unique creations are a testament to
+                our commitment to bringing you extraordinary flavor combinations
+                that will astound your taste buds.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+        <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    
+
+  </body>
+  <footer>
+    <div class="card-footer text-muted" id="footerContent">
+      <a href="" alt="contact">Contact Us</a>
+      <a href="" alt="contact">Our Locations</a>
+      <a href="" alt="contact">Donations</a>
+    </div>
+  </footer>
+</html>

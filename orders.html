@@ -6,25 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="ticket-style.css" />
-    <title>Tickets</title>
+    <title>Orders</title>
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
+    <!-- favicon -->
+     <link rel="icon" type="image/x-icon" href="./imgs/icon.png">
 </head>
 
 <body>
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        <a href="./index.html" class="navbar-brand"><img src="./imgs/icon.png" id="icon"></img></a>
-        <div class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </div>
-        <div class="collapse navbar-collapse" id="navLinks">
+      <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+    >
+      <a href="./index.html" class="navbar-brand"
+        ><img src ="./imgs/icon.png" id="icon"></img></a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navLinks"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav">
           <li class="nav-item text-center">
-            <a href="" class="nav-link">HOME</a>
+            <a href="./index.html" class="nav-link">HOME</a>
+          </li>&nbsp;
+          <li class="nav-item">
+            <a href="" class="nav-link">ABOUT</a>
+          </li>&nbsp;
+          <li class="nav-item">
+            <a href="./orders.html" class="nav-link">ORDER</a>
           </li>
         </ul>
       </div>
